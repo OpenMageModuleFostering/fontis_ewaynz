@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Fontis_EwayNz</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL 3.0)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Adds support for eWAY NZ payment gateway.</summary>
+    <description>Adds support for eWAY NZ payment gateway.</description>
+    <notes>None</notes>
+    <authors><author><name>Fontis</name><user>auto-converted</user><email>magento@fontis.com.au</email></author></authors>
+    <date>2010-05-09</date>
+    <time>15:34:16</time>
+    <contents><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="fontis"><dir name="ewaynz"><dir name="pdf"><file name="info.phtml" hash="6c686381cf6e767e8a0bc6fe65cf3d1b"/></dir><file name="form.phtml" hash="6e455589f3a6ae962e993b807a9b4ff8"/><file name="info.phtml" hash="a419c9a0f39e2a5d03a2903ecddf01ed"/></dir></dir></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="fontis_ewaynz.xml" hash="41dba7a6cdeff37cccf969df632d9e49"/></dir><dir name="template"><dir name="fontis"><dir name="ewaynz"><file name="failure.phtml" hash="ac3e6a5944273dd8ebab6218d809c3dd"/><file name="form.phtml" hash="883196b1cd9bae4c5ab61dfcefe7bc74"/></dir></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><file name="Fontis_EwayNz.csv" hash="471fa1b3d501250167b7cad3d4d42e01"/></dir></target><target name="magecommunity"><dir name="Fontis"><dir name="EwayNz"><dir name="Block"><file name="Failure.php" hash="03de6c5318487215936d328e54be6173"/><file name="Form.php" hash="2a2d8116c88c2ea8b0c5cbc0715ea64a"/></dir><dir name="controllers"><file name="SharedController.php" hash="31b6c5293d16f511324932339850c943"/></dir><dir name="etc"><file name="config.xml" hash="05c4c9f9da04ac12c3aeb06b1254fb87"/><file name="system.xml" hash="6aa5bb497317f40a7d2f5aa456562122"/></dir><dir name="Helper"><file name="Data.php" hash="727b808c73c20ae97d162c892ac336c2"/></dir><dir name="Model"><dir name="Source"><file name="Cctype.php" hash="d38f391955687d43782d02a69a086095"/></dir><file name="Shared.php" hash="17066333c9d5143c6447fc9f61a8fc74"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Fontis_EwayNz.xml" hash="9e790c0d5d066e561e0d9efe7d937ff7"/></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>
